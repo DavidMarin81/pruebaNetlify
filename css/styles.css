@@ -1,0 +1,9 @@
+h1 {
+    background-color: blue; /* Fondo azul */
+    color: white; /* Letras blancas */
+    padding: 10px; /* Añade un relleno alrededor del texto para mayor claridad */
+}
+
+p {
+    font-size: 24px;
+}
