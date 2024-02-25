@@ -7,3 +7,35 @@ h1 {
 p {
     font-size: 24px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    margin-bottom: 20px;
+}
+form {
+    display: table;
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+label, input[type="text"], input[type="number"] {
+    display: table-row;
+}
+label, input {
+    display: table-cell;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    display: table-cell;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
